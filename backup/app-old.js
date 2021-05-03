@@ -1,6 +1,6 @@
 const http = require('http');
 
-
+/* Archivo ertrada de la app */
 
 http.createServer((req, res) => {
 
