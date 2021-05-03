@@ -19,7 +19,10 @@ app.get('/', (req, res) => {
     // esta function de call back sera el controlador 
    // res.send('xxxxxx000');
 
-   res.render('home');
+   res.render('home',{
+       nombre: 'Fernando Herrera ',
+       title: 'Curso de node'
+   });
 
 
 })
