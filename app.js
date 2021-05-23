@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     // esta function de call back sera el controlador 
    // res.send('xxxxxx000');
    res.render('home',{
-    nombre: 'Fernando Herrera ',
+    nombre: 'Mohssine Lmariouh',
     title: 'Curso de node'
    });
 
@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 app.get('/generic', (req, res) => {
     res.render('generic',{
         nombre: 'Fernando Herrera ',
-        title: 'Curso de node'
+        title: 'Curso de nodes'
     });
 
 })
@@ -38,7 +38,7 @@ app.get('/generic', (req, res) => {
 app.get('/elements', (req, res) => {
   res.render('elements',{
     nombre: 'Fernando Herrera ',
-    title: 'Curso de node'
+    title: 'Curso de nodes'
   });
 
 })
